@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import Landing from 'Portfolio/landing';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   }, []);
   return (
     <main>
+      <Landing/>
       <h1>Create React App + Go API</h1>
       <h2>
         Deployed with{' '}
@@ -50,6 +52,8 @@ function App() {
       <br />
       <h2>The date according to Go is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
+
+
     </main>
   );
 }
