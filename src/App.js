@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import Landing from 'Portfolio/landing';
+import Landing from './Portfolio/landing';
 import './App.css';
 
 function App() {

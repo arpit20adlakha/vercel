@@ -1,4 +1,5 @@
 import React from 'react';
+
 function getFolio() {
     return (
         <div>
@@ -13,4 +14,4 @@ function getFolio() {
     )
 }
 
-module.exports = getFolio
+export default getFolio
